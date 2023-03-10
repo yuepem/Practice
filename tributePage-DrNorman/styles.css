@@ -1,0 +1,100 @@
+/* body {
+    max-width: 600px;
+    min-width: 300px;
+} */
+ 
+ header, main {
+    width: 99%;
+    margin: 0 auto;
+    /* margin-left: auto;
+    margin-right: auto; */
+    background-color:rgb(228, 228, 228);
+}
+
+header {
+    margin-top: 15px;
+}
+
+main {
+    margin-top: -20px;
+}
+
+.heading {
+    padding: 50px 0 15px 0;
+    text-align: center;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 37px;
+    font-weight: 1000;
+    letter-spacing: 2px;
+}
+
+
+
+.picture {
+    width: 98%;
+    background-color: white;
+    margin: -10px auto;
+    text-align: center;
+    border-radius: 8px 8px;
+}
+
+img {
+    width: min(100%, 1000px);
+}
+
+.picture p, .heading p {
+    font-size: 17px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 50px;
+}
+
+ul {
+    /* display: block; */
+    /* text-align: center; */
+    width: min(95%, 600px);
+    margin: auto;
+}
+
+li {
+    font-family: Tahoma, Verdana;
+    font-size: 17px;
+    padding: 10px 20px;
+}
+
+span {
+    font-weight: 800;
+}
+
+.quote {
+    width: min(95%, 550px);
+    margin: auto;
+    text-align: center;
+    font-style: italic;
+    font-size: 17px;
+}
+
+.quote-name {
+    text-align: left;
+}
+
+.last-p {
+    width: min(95%, 1000px);
+    margin: auto;
+    padding: 50px 20px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    font-weight: 700;
+}
