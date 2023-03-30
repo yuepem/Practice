@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+/* ======  Header ======= */
+
+.nav {
+    max-width: 80em;
+    margin: 0 auto;
+    /* padding: 0 2em; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: antiquewhite; */
+    position: relative;
+}
+
+.nav ul {
+    list-style: none;
+    /* background-color: aqua; */
+    /* margin: 0 1em; */
+    padding: 0;
+}
+
+.nav ul li {
+    display: inline-block;
+    /* margin: 0 1em; */
+    /* background-color: hsl(0, 0%, 93%); */
+    padding: .8em 2em;
+    border-radius: 5px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: gray;
+    font-family: 'Barlow', Helvetica, sans-serif;
+}
+
+.nav ul li:hover {
+    background-color: hsl(0, 0%, 93%);
+}
+
+
+/* ===toggle button=== */
+
+.toggle-button {
+    position: absolute;
+    top: 2em;
+    right: 2em;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 2em;
+    height: 1.2em;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .toggle-button {
+        display: flex;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    .nav-list {
+        display: none;
+    }
+
+    .nav {
+        display: block;
+        width: 100%;
+        /* padding: 0; */
+    }
+
+    .nav-list {
+        text-align: end;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+/* ============= */
+.b {
+    background-color: hsl(0, 0%, 93%);
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    padding: 2em;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .card {
+        width: 100%;
+    }
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.background-img {
+    height: 200px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+h2 {
+    font-family: 'Barlow', Helvetica, sans-serif;
+    /* background-color: antiquewhite; */
+}
+
+p {
+    font-family: 'Barlow', Helvetica, sans-serif;
+    font-size: 1.2em;
+    /* background-color: antiquewhite; */
+    padding: 0 1em;
+    text-align: center;
+    margin: 0;
+}
