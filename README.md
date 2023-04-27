@@ -26,7 +26,7 @@ Some basic exercises for web frontend development
 ![A Picasso Painting](./screenshots/PicassoPainting.png)
 
 ## A balance sheet
-![A balance sheet](./screenshots/balanceSheet.png)
+![A balance sheet](./screenshots/BalanceSheet.png)
 
 ## Nutrition facts
 ![Nutrition facts](./screenshots/nutritionFacts.png)
