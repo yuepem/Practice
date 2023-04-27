@@ -2,37 +2,37 @@
 Some basic exercises for web frontend development
 
 ## App download page
-![App download page](./app-download-page/app_download_page.png)
+![App download page](./screenshots/app_download_page.png)
 
 ## News homepage
-![News homepage](./news-homepage-main/newsHomePage.png)
+![News homepage](./screenshots/newsHomePage.png)
 
 ## JS Documentation
-![JS Documentation](./Build%20A%20JS%20Documentation/JS-Documentation.png)
+![JS Documentation](./screenshots/JS-Documentation.png)
 
 ## A Tribute page of Dr.Norman
-![A Tribute page of Dr.Norman](./tributePage-DrNorman/tributePage-DrNorman.png) 
+![A Tribute page of Dr.Norman](./screenshots/tributePage-DrNorman.png) 
 
 ## Weather widget
-![Weather widget](./Stockholm-Weather(html&css)/weatherWidget.png)
+![Weather widget](./screenshots/weatherWidget.png)
 
 ## Piano
-![Piano](./Build%20A%20Piano/Piano.png)
+![Piano](./screenshots/Piano.png)
 
 ## A clock
-![A clock](./a-clock/clock.png)
+![A clock](./screenshots/clock.png)
 
 ## A Picasso Painting
-![A Picasso Painting](./Build-A-Picasso-Painting/PicassoPainting.png)
+![A Picasso Painting](./screenshots/PicassoPainting.png)
 
 ## A balance sheet
-![A balance sheet](./build-a-balance-sheet/balanceSheet.png)
+![A balance sheet](./screenshots/balanceSheet.png)
 
 ## Nutrition facts
-![Nutrition facts](./Nutrition-Fact/nutritionFacts.png)
+![Nutrition facts](./screenshots/nutritionFacts.png)
 
 ## A Magazine
-![A Magazine](./Build%20A%20Magazine/Magazine.png)
+![A Magazine](./screenshots/Magazine.png)
 
 
 
